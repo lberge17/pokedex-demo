@@ -20,6 +20,3 @@ class Pokedex::API
         Pokedex::Pokemon.new(data)
     end
 end
-
-Pokedex::API.new.get_pokemon_urls
-binding.pry
